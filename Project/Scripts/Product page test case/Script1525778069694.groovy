@@ -24,21 +24,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.223.223.31:8091/')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (7)/input_username'), 'user')
+WebUI.setText(findTestObject('Product page test case/input_username'), 'user')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (7)/input_password'), 'user')
+WebUI.setText(findTestObject('Product page test case/input_password'), 'user')
 
-WebUI.click(findTestObject('Page_ProjectBackend (7)/button_Login'))
+WebUI.click(findTestObject('Product page test case/button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Garden'))
+WebUI.click(findTestObject('Product page test case/h5_Garden'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Banana'))
+WebUI.click(findTestObject('Product page test case/h5_Banana'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Orange'))
+WebUI.click(findTestObject('Product page test case/h5_Orange'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Papaya'))
+WebUI.click(findTestObject('Product page test case/h5_Papaya'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Rambutan'))
+WebUI.click(findTestObject('Product page test case/h5_Rambutan'))
 
 WebUI.closeBrowser()
 

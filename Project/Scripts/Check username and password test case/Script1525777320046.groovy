@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.223.223.31:8091/')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (4)/input_username'), 'Hello user')
+WebUI.setText(findTestObject('Check username and password test case/input_username'), 'Hello user')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (4)/input_password'), 'user')
+WebUI.setText(findTestObject('Check username and password test case/input_password'), 'user')
 
-WebUI.click(findTestObject('Page_ProjectBackend (4)/button_Login'))
+WebUI.click(findTestObject('Check username and password test case/button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (4)/label_Usernamepassword is inco'))
+WebUI.click(findTestObject('Check username and password test case/label_Usernamepassword is inco'))
 
 WebUI.closeBrowser()
 

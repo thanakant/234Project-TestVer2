@@ -24,15 +24,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.223.223.31:8091/')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (2)/input_username'), 'admin')
+WebUI.setText(findTestObject('Admin menu test case/input_username'), 'admin')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (2)/input_password'), 'admin')
+WebUI.setText(findTestObject('Admin menu test case/input_password'), 'admin')
 
-WebUI.click(findTestObject('Page_ProjectBackend (2)/button_Login'))
+WebUI.click(findTestObject('Admin menu test case/button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (2)/a_Products'))
+WebUI.click(findTestObject('Admin menu test case/a_Products'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (2)/a_Total Transaction'))
+WebUI.click(findTestObject('Admin menu test case/a_Total Transaction'))
 
 WebUI.closeBrowser()
 
