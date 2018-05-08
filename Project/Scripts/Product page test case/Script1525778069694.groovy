@@ -18,4 +18,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://34.223.223.31:8091/')
+
+WebUI.setText(findTestObject('Page_ProjectBackend (7)/input_username'), 'user')
+
+WebUI.setText(findTestObject('Page_ProjectBackend (7)/input_password'), 'user')
+
+WebUI.click(findTestObject('Page_ProjectBackend (7)/button_Login'))
+
+WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Garden'))
+
+WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Banana'))
+
+WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Orange'))
+
+WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Papaya'))
+
+WebUI.click(findTestObject('Page_ProjectBackend (7)/h5_Rambutan'))
+
+WebUI.closeBrowser()
 
