@@ -24,11 +24,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.223.223.31:8091/')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (1)/input_username'), 'user')
+WebUI.setText(findTestObject('Login to system test case/input_username'), 'user')
 
-WebUI.setText(findTestObject('Page_ProjectBackend (1)/input_password'), 'user')
+WebUI.setText(findTestObject('Login to system test case/input_password'), 'user')
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/button_Login'))
+WebUI.click(findTestObject('Login to system test case/button_Login'))
 
 WebUI.closeBrowser()
 
