@@ -30,51 +30,51 @@ WebUI.setText(findTestObject('For test case 3/Page_ProjectBackend/input_password
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/button_Login'))
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/h5_Garden'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/h5_Garden'), gardenName)
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/button_add to cart'))
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/h5_Banana'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/h5_Banana'), bananaName)
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/button_add to cart'))
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/h5_Orange'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/h5_Orange'), orangeName)
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/button_add to cart'))
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/h5_Papaya'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/h5_Papaya'), papayaName)
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/button_add to cart'))
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/h5_Rambutan'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/h5_Rambutan'), rambutanName)
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/button_add to cart'))
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/a_Carts            5'))
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_Garden'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_Garden'), gardenName)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_20000 THB'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_20000 THB'), gardenPrice)
 
 WebUI.setText(findTestObject('For test case 3/Page_ProjectBackend/input_amount'), garden)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_Banana'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_Banana'), bananaName)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_150 THB'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_150 THB'), bananaPrice)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_Orange'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_Orange'), orangeName)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_280 THB'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_280 THB'), orangePrice)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_Papaya'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_Papaya'), papayaName)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_12 THB'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_12 THB'), papayaPrice)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_Rambutan'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_Rambutan'), rambutanName)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/td_20 THB'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/td_20 THB'), rambutanPrice)
 
-WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/p_Total price  60462 THB'))
+WebUI.verifyElementText(findTestObject('For test case 3/Page_ProjectBackend/p_Total price  60462 THB'), total)
 
 WebUI.click(findTestObject('For test case 3/Page_ProjectBackend/button_confirm'))
 

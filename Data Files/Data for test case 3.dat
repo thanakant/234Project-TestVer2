@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data for test case 3</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ee3107d4-324e-443d-84ab-189808502bdb</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>%223%22</data>
+   <data>%22Garden%22</data>
+   <data>%22Banana%22</data>
+   <data>%22Orange%22</data>
+   <data>%22Papaya%22</data>
+   <data>%22Rambutan%22</data>
+   <data>%2220%2C000+THB%22</data>
+   <data>%22150+THB%22</data>
+   <data>%22150+THB%22</data>
+   <data>%2212+THB%22</data>
+   <data>%2220+THB%22</data>
+   <data>%22Total+price%3A+60%2C462+THB%22</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Data</name>
+      <size>12</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

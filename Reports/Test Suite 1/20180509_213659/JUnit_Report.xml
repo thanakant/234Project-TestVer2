@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="138" tests="0" failures="12" errors="0">
+   <testsuite name="Test Suite 1" tests="0" failures="12" errors="0" time="138" timestamp="2018-05-09 21:37:01" hostname="thanakan_t - 192.168.1.23" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659"/>
+         <property name="logFiles" value="C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876633350.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876633624.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876644626.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876645075.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876655396.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876655655.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876666497.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876666792.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876677328.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876677616.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876688055.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876688335.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876699090.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876699357.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876709873.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876710161.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876720588.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876720886.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876731335.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876731598.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876746800.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876747074.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876758415.png, C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876758843.png"/>
+         <property name="hostName" value="thanakan_t - 192.168.1.23"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.1.23"/>
+         <property name="sessionId" value="70020679ad5fe008e93eec9fcaab6aff"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;3&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:37:01 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"3"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:37:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:37:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:11 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:11 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:11 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:11 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:12 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:12 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"3"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:13 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"3"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876633350.png]]
+
+2018-05-09 21:37:13 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"3"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876633624.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:37:01 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"3"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;Garden&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:37:13 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Garden"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:37:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:37:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:37:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:23 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:23 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:23 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:23 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:23 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:23 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Garden"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:25 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"Garden"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876644626.png]]
+
+2018-05-09 21:37:25 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Garden"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876645075.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:37:13 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Garden"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;Banana&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:37:25 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Banana"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:37:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:37:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:37:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:33 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:34 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:34 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:34 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:34 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Banana"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:35 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"Banana"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876655396.png]]
+
+2018-05-09 21:37:35 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Banana"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876655655.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:37:25 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Banana"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;Orange&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:37:35 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Orange"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:37:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:37:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:37:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:44 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:44 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:45 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:45 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:45 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:45 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Orange"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:46 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"Orange"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876666497.png]]
+
+2018-05-09 21:37:47 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Orange"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876666792.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:37:35 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Orange"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;Papaya&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:37:47 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Papaya"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:37:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:37:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:37:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:55 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:37:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:37:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:56 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:37:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:37:56 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Papaya"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:57 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"Papaya"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876677328.png]]
+
+2018-05-09 21:37:57 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Papaya"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876677616.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:37:47 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Papaya"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;Rambutan&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:37:57 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Rambutan"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:37:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:37:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:38:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:38:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:06 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:06 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:06 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:06 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:06 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:06 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Rambutan"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:08 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"Rambutan"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876688055.png]]
+
+2018-05-09 21:38:08 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Rambutan"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876688335.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:37:57 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Rambutan"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;20,000 THB&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:38:08 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20,000 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:38:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:38:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:38:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:17 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:17 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:17 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:17 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:17 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:17 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20,000 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:19 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"20,000 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876699090.png]]
+
+2018-05-09 21:38:19 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20,000 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876699357.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:38:08 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20,000 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;150 THB&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:38:19 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:38:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:38:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:38:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:28 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:28 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:28 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:28 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:28 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:28 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:30 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876709873.png]]
+
+2018-05-09 21:38:30 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876710161.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:38:19 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;150 THB&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:38:30 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:38:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:38:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:38:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:39 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:39 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:39 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:39 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:39 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:39 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:40 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876720588.png]]
+
+2018-05-09 21:38:41 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876720886.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:38:30 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"150 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;12 THB&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:38:41 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"12 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:38:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:38:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:38:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:49 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:38:49 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:49 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:38:49 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:50 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:38:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:38:50 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"12 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:51 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"12 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876731335.png]]
+
+2018-05-09 21:38:51 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"12 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876731598.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:38:41 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"12 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;20 THB&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:38:51 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:38:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:38:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:38:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:38:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:39:05 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:39:05 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:39:05 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:39:05 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:39:05 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:39:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:39:05 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:39:07 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"20 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876746800.png]]
+
+2018-05-09 21:39:07 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876747074.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:38:51 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"20 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test case 3 create a transaction" classname="Test Cases/Test case 3 create a transaction" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '&quot;Total price: 60,462 THB&quot;' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-09 21:39:07 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Total price: 60,462 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:39:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 21:39:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 21:39:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 21:39:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:39:16 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-09 21:39:16 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:39:17 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_username'
+
+2018-05-09 21:39:17 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:39:17 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For test case 3/Page_ProjectBackend/input_password'
+
+2018-05-09 21:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/For test case 3/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 21:39:17 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Total price: 60,462 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-09 21:39:18 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '"Total price: 60,462 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876758415.png]]
+
+2018-05-09 21:39:19 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Total price: 60,462 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 1\\20180509_213659\\1525876758843.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 21:39:07 - [TEST_CASE][FAILED] - Test Cases/Test case 3 create a transaction: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"Total price: 60,462 THB"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 21:37:01 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"3"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-05-09 21:37:01 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Test case 3 create a transaction FAILED because (of) Verify element text of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '"3"' of test object 'Object Repository/For test case 3/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>
