@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test case 2 Cart button</name>
+   <name>Cart button-Test</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>16b55eaf-383f-4eec-a4f1-b2cfaf52c870</testCaseGuid>

@@ -15,7 +15,7 @@
       <guid>9f70b82d-f46c-4e96-81e4-d9ebeb8bd955</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test case 3 create a transaction</testCaseId>
+      <testCaseId>Test Cases/Create a transaction-Test</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>46357593-6eeb-4bec-9bca-f200e904a564</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Data for test case 3</testDataId>
+         <testDataId>Data Files/Data for test case create a transaction</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>46357593-6eeb-4bec-9bca-f200e904a564</testDataLinkId>
