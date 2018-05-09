@@ -19,4 +19,18 @@
       <masked>false</masked>
       <name>password</name>
    </variable>
+   <variable>
+      <defaultValue>'Products'</defaultValue>
+      <description></description>
+      <id>55fb56df-f7db-45d1-9c9f-885d1078d7cc</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
+   <variable>
+      <defaultValue>'Carts 2'</defaultValue>
+      <description></description>
+      <id>94666cfb-3e10-443d-b020-cddcb2c6e861</id>
+      <masked>false</masked>
+      <name>amountOfcart</name>
+   </variable>
 </TestCaseEntity>

@@ -30,13 +30,13 @@ WebUI.setText(findTestObject('Cart Button/Page_ProjectBackend/input_password'), 
 
 WebUI.click(findTestObject('Cart Button/Page_ProjectBackend/button_Login'))
 
-WebUI.click(findTestObject('Cart Button/Page_ProjectBackend/a_Products'))
+WebUI.verifyElementText(findTestObject('Cart Button/Page_ProjectBackend/a_Products'), product)
 
 WebUI.click(findTestObject('Cart Button/Page_ProjectBackend/button_add to cart'))
 
 WebUI.click(findTestObject('Cart Button/Page_ProjectBackend/button_add to cart'))
 
-WebUI.click(findTestObject('Cart Button/Page_ProjectBackend/a_Carts            2'))
+WebUI.verifyElementText(findTestObject('Cart Button/Page_ProjectBackend/a_Carts            2'), amountOfcart)
 
 WebUI.closeBrowser()
 
