@@ -30,9 +30,9 @@ WebUI.setText(findTestObject('Admin menu test case/input_password'), 'admin')
 
 WebUI.click(findTestObject('Admin menu test case/button_Login'))
 
-WebUI.click(findTestObject('Admin menu test case/a_Products'))
+WebUI.verifyElementText(findTestObject('Admin menu test case/a_Products'), '')
 
-WebUI.click(findTestObject('Admin menu test case/a_Total Transaction'))
+WebUI.verifyElementText(findTestObject('Admin menu test case/a_Total Transaction'), '')
 
 WebUI.closeBrowser()
 
