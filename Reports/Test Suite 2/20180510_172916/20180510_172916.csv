@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 2,Chrome 66.0.3359.139,Using for admin view test case,2018-05-10 17:29:18,2018-05-10 17:29:59,40.841s,PASSED
+,,,,,,
+Test Cases/Admin view all transaction Testing,Chrome 66.0.3359.139,,2018-05-10 17:29:18,2018-05-10 17:29:58,40.194s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 17:29:19,2018-05-10 17:29:22,3.707s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 17:29:22,2018-05-10 17:29:45,22.621s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:29:45,2018-05-10 17:29:46,0.436s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:29:46,2018-05-10 17:29:46,0.170s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:46,2018-05-10 17:29:46,0.199s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:46,2018-05-10 17:29:47,1.251s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:29:47,2018-05-10 17:29:47,0.087s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:47,2018-05-10 17:29:47,0.178s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 17:29:47,2018-05-10 17:29:47,0.011s,PASSED
+"Statement - total = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p""))",Chrome 66.0.3359.139,,2018-05-10 17:29:47,2018-05-10 17:29:47,0.060s,PASSED
+Statement - adminBeforeAdd = total.getText(),Chrome 66.0.3359.139,,2018-05-10 17:29:47,2018-05-10 17:29:48,0.077s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.004s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.001s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.002s,PASSED
+Statement - adminBeforeAdd2 = java.lang.Integer.parseInt(adminBeforeAdd),Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.006s,PASSED
+"Statement - println(""Total before user add a transaction = "" + adminBeforeAdd2)",Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.006s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.276s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.137s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.134s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:48,0.115s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 17:29:48,2018-05-10 17:29:51,3.029s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:29:51,2018-05-10 17:29:51,0.095s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:51,2018-05-10 17:29:52,0.124s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.081s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.073s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.138s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.078s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.136s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.109s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.129s,PASSED
+Statement - driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.001s,PASSED
+"Statement - total2 = driver2.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p""))",Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.014s,PASSED
+Statement - userTransaction = total2.getText(),Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.023s,PASSED
+"Statement - userTransaction = userTransaction.replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.002s,PASSED
+"Statement - userTransaction = userTransaction.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.000s,PASSED
+"Statement - userTransaction = userTransaction.replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.001s,PASSED
+Statement - userTransaction2 = java.lang.Integer.parseInt(userTransaction),Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.001s,PASSED
+"Statement - println(""Total of user add a transaction = "" + userTransaction2)",Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.002s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:52,0.170s,PASSED
+acceptAlert,Chrome 66.0.3359.139,,2018-05-10 17:29:52,2018-05-10 17:29:53,0.027s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:53,2018-05-10 17:29:53,0.111s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 17:29:53,2018-05-10 17:29:55,2.003s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:29:55,2018-05-10 17:29:55,0.254s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:29:55,2018-05-10 17:29:55,0.147s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:55,2018-05-10 17:29:55,0.125s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:55,2018-05-10 17:29:55,0.123s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 17:29:55,2018-05-10 17:29:57,2.002s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.077s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.092s,PASSED
+Statement - driver3 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.001s,PASSED
+"Statement - total3 = driver3.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p""))",Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.016s,PASSED
+Statement - adminAfterAdd = total3.getText(),Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.028s,PASSED
+"Statement - adminAfterAdd = adminAfterAdd.replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.000s,PASSED
+"Statement - adminAfterAdd = adminAfterAdd.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.000s,PASSED
+"Statement - adminAfterAdd = adminAfterAdd.replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.000s,PASSED
+Statement - adminAfterAdd2 = java.lang.Integer.parseInt(adminAfterAdd),Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.001s,PASSED
+"Statement - println(""Total before user add a transaction = "" + adminAfterAdd2)",Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.001s,PASSED
+Statement - compare = userTransaction2 + adminBeforeAdd2,Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:57,0.000s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-10 17:29:57,2018-05-10 17:29:58,0.010s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-10 17:29:58,2018-05-10 17:29:58,0.885s,PASSED

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 2,Chrome 66.0.3359.139,Using for admin view test case,2018-05-10 17:26:58,2018-05-10 17:27:18,20.117s,ERROR
+,,,,,,
+Test Cases/Admin view all transaction Testing,Chrome 66.0.3359.139,,2018-05-10 17:26:58,2018-05-10 17:27:17,18.834s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 17:26:59,2018-05-10 17:27:02,3.728s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 17:27:02,2018-05-10 17:27:14,11.812s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:27:14,2018-05-10 17:27:15,0.344s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:27:15,2018-05-10 17:27:15,0.226s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:27:15,2018-05-10 17:27:15,0.322s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:27:15,2018-05-10 17:27:17,1.489s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.074s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.101s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.015s,PASSED
+"Statement - total = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p""))",Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.062s,PASSED
+Statement - adminBeforeAdd = total.getText(),Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.035s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.006s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.001s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.002s,PASSED
+Statement - adminBeforeAdd2 = java.lang.Integer.parseInt(adminBeforeAdd),Chrome 66.0.3359.139,,2018-05-10 17:27:17,2018-05-10 17:27:17,0.003s,PASSED

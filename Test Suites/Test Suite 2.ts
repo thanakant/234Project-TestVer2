@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Using for admin view test case</description>
+   <name>Test Suite 2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-10T17:51:15</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3c877996-fdeb-480c-9675-a4488f67d945</testSuiteGuid>
+   <testCaseLink>
+      <guid>4718d599-104e-438a-b38a-f933c28f8a87</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin view all transaction Testing</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>61c7cf9b-d996-4a4b-9cdb-72a02505df79</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data file 2 for admin test case</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1cac5294-2258-4d8a-9ee5-dee6c2882eb8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data file 3 for admin test</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>65ee12c0-a586-44a0-8202-921fb31b4c65</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data for admin test case</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>61c7cf9b-d996-4a4b-9cdb-72a02505df79</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>6cc6e70c-74be-4bf3-b24c-83ff9d1ad3ec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61c7cf9b-d996-4a4b-9cdb-72a02505df79</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>409d5fa6-7066-4610-9277-aa3abd269eb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>65ee12c0-a586-44a0-8202-921fb31b4c65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Data</value>
+         <variableId>a3c32a03-65b7-40bf-8d25-b4828c0c3d0d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>65ee12c0-a586-44a0-8202-921fb31b4c65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>data2</value>
+         <variableId>3ad357d0-20c3-4725-92ff-4b6fd65b7642</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>65ee12c0-a586-44a0-8202-921fb31b4c65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>data3</value>
+         <variableId>e26637ff-83ee-4679-9b9c-6c4e38823e41</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>65ee12c0-a586-44a0-8202-921fb31b4c65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Input</value>
+         <variableId>d5f05d49-c1bc-4de2-9b90-58925b4159b4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1cac5294-2258-4d8a-9ee5-dee6c2882eb8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>e1227ddc-a940-4346-ad9c-bf7abf1c6a07</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1cac5294-2258-4d8a-9ee5-dee6c2882eb8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a704bed0-f94f-46cd-941a-7a357e0d4e26</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

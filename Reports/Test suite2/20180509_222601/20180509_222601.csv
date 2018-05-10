@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test suite2,Chrome 66.0.3359.139,Testing test case 4 and new data which from excel file,2018-05-09 22:26:03,2018-05-09 22:26:20,16.487s,FAILED
+,,,,,,
+Test Cases/Test case 4 admin view all transaction,Chrome 66.0.3359.139,,2018-05-09 22:26:04,2018-05-09 22:26:19,15.164s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 22:26:04,2018-05-09 22:26:09,4.505s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 22:26:09,2018-05-09 22:26:16,7.135s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 22:26:16,2018-05-09 22:26:16,0.308s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 22:26:16,2018-05-09 22:26:16,0.143s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 22:26:16,2018-05-09 22:26:16,0.149s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 22:26:16,2018-05-09 22:26:18,1.225s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-09 22:26:18,2018-05-09 22:26:19,1.177s,FAILED

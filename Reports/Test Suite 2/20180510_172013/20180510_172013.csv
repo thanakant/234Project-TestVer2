@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 2,Chrome 66.0.3359.139,Using for admin view test case,2018-05-10 17:20:15,2018-05-10 17:20:51,36.581s,FAILED
+,,,,,,
+Test Cases/Admin view all transaction Testing,Chrome 66.0.3359.139,,2018-05-10 17:20:15,2018-05-10 17:20:51,35.274s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 17:20:16,2018-05-10 17:20:21,4.610s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 17:20:21,2018-05-10 17:20:43,22.463s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:20:43,2018-05-10 17:20:43,0.317s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:20:43,2018-05-10 17:20:43,0.188s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:20:43,2018-05-10 17:20:44,0.169s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:20:44,2018-05-10 17:20:45,1.500s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:20:45,2018-05-10 17:20:45,0.094s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:20:45,2018-05-10 17:20:45,0.124s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-10 17:20:45,2018-05-10 17:20:45,0.014s,PASSED
+"Statement - total = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p""))",Chrome 66.0.3359.139,,2018-05-10 17:20:45,2018-05-10 17:20:46,0.107s,PASSED
+Statement - adminBeforeAdd = total.getText(),Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.060s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.006s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.002s,PASSED
+"Statement - adminBeforeAdd = adminBeforeAdd.replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.002s,PASSED
+Statement - adminBeforeAdd2 = java.lang.Integer.parseInt(adminBeforeAdd),Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.002s,PASSED
+"Statement - println(""Total before user add a transaction = "" + adminBeforeAdd2)",Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.005s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.170s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:46,0.242s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:20:46,2018-05-10 17:20:47,0.584s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:20:47,2018-05-10 17:20:47,0.088s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-10 17:20:47,2018-05-10 17:20:50,3.038s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:20:50,2018-05-10 17:20:51,0.835s,FAILED
