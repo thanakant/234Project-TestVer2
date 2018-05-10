@@ -30,7 +30,7 @@ WebUI.setText(findTestObject('Check username and password test case/input_passwo
 
 WebUI.click(findTestObject('Check username and password test case/button_Login'))
 
-WebUI.click(findTestObject('Check username and password test case/label_Usernamepassword is inco'))
+WebUI.verifyElementText(findTestObject('Check username and password test case/label_Usernamepassword is inco'), '')
 
 WebUI.closeBrowser()
 

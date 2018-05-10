@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.223.223.31:8091/')
 
-WebUI.click(findTestObject('Open web testcase/h2_Login'))
+WebUI.verifyElementText(findTestObject('Open web testcase/h2_Login'), '')
 
 WebUI.closeBrowser()
 
