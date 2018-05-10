@@ -8,22 +8,66 @@
    <dataFileGUID>ee3107d4-324e-443d-84ab-189808502bdb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>%223%22</data>
-   <data>%22Garden%22</data>
-   <data>%22Banana%22</data>
-   <data>%22Orange%22</data>
-   <data>%22Papaya%22</data>
-   <data>%22Rambutan%22</data>
-   <data>%2220%2C000+THB%22</data>
-   <data>%22150+THB%22</data>
-   <data>%22150+THB%22</data>
-   <data>%2212+THB%22</data>
-   <data>%2220+THB%22</data>
-   <data>%22Total+price%3A+60%2C462+THB%22</data>
+   <data>Garden Banana Orange Papaya Rambutan 3 20%2C000+THB 150+THB 280+THB 12+THB 20+THB Total+price%3A+60%2C462+THB</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Data</name>
-      <size>12</size>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Data2</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Data3</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Data4</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>Data5</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>input</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>value1</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>value2</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>value3</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>value4</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>value5</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>total</name>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 2" time="33" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 2" tests="1" failures="0" errors="0" time="33" timestamp="2018-05-10 17:31:16" hostname="thanakan_t - 10.80.148.103" id="Test Suites/Test Suite 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 2\\20180510_173115"/>
+         <property name="logFiles" value="C:\\Users\\thanakan_t\\git\\234Project-TestVer2\\Reports\\Test Suite 2\\20180510_173115\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thanakan_t - 10.80.148.103"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.148.103"/>
+         <property name="sessionId" value="4356e4738650b3efd7e6d70d0f726e0e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin view all transaction Testing" classname="Test Cases/Admin view all transaction Testing" status="PASSED">
+         <system-out><![CDATA[2018-05-10 17:31:17 - [TEST_CASE][PASSED] - Test Cases/Admin view all transaction Testing: Test Cases/Admin view all transaction Testing
+
+2018-05-10 17:31:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 17:31:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 17:31:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-10 17:31:37 - [MESSAGE][PASSED] - Navigate to 'http://34.223.223.31:8091/' successfully
+
+2018-05-10 17:31:37 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_username'
+
+2018-05-10 17:31:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_username'
+
+2018-05-10 17:31:37 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_password'
+
+2018-05-10 17:31:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_password'
+
+2018-05-10 17:31:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 17:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 17:31:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 17:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h2_Transaction List' are matched.
+
+2018-05-10 17:31:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h2_Transaction List' are matched.
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/Total before add' is clicked on
+
+2018-05-10 17:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/Total before add' is clicked on
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - total = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - adminBeforeAdd = total.getText(): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - adminBeforeAdd = adminBeforeAdd.replaceAll("Total price: ", ""): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - adminBeforeAdd = adminBeforeAdd.replaceAll(" THB", ""): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - adminBeforeAdd = adminBeforeAdd.replaceAll(",", ""): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - adminBeforeAdd2 = java.lang.Integer.parseInt(adminBeforeAdd): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - Statement - println("Total before user add a transaction = " + adminBeforeAdd2): null
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-10 17:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-10 17:31:39 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_username'
+
+2018-05-10 17:31:40 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_username'
+
+2018-05-10 17:31:40 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_password'
+
+2018-05-10 17:31:40 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_password'
+
+2018-05-10 17:31:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 17:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 17:31:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-10 17:31:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-10 17:31:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-10 17:31:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-10 17:31:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-10 17:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-10 17:31:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-10 17:31:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h5_Banana' are matched.
+
+2018-05-10 17:31:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-10 17:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_add to cart' is clicked on
+
+2018-05-10 17:31:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/a_Carts            2' is clicked on
+
+2018-05-10 17:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/a_Carts            2' is clicked on
+
+2018-05-10 17:31:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/td_Garden' are matched.
+
+2018-05-10 17:31:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/td_Garden' are matched.
+
+2018-05-10 17:31:43 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_amount'
+
+2018-05-10 17:31:44 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_amount'
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/td_Banana' are matched.
+
+2018-05-10 17:31:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/td_Banana' are matched.
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/Total user add' is clicked on
+
+2018-05-10 17:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/Total user add' is clicked on
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - driver2 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - total2 = driver2.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - userTransaction = total2.getText(): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - userTransaction = userTransaction.replaceAll("Total price: ", ""): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - userTransaction = userTransaction.replaceAll(" THB", ""): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - userTransaction = userTransaction.replaceAll(",", ""): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - userTransaction2 = java.lang.Integer.parseInt(userTransaction): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - Statement - println("Total of user add a transaction = " + userTransaction2): null
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_confirm' is clicked on
+
+2018-05-10 17:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_confirm' is clicked on
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-10 17:31:44 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-10 17:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Logout' is clicked on
+
+2018-05-10 17:31:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 17:31:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 17:31:46 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_username'
+
+2018-05-10 17:31:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_username'
+
+2018-05-10 17:31:46 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_password'
+
+2018-05-10 17:31:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/For admin test case/Page_ProjectBackend/input_password'
+
+2018-05-10 17:31:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 17:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 17:31:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 17:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 17:31:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 17:31:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h2_Transaction List' are matched.
+
+2018-05-10 17:31:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/For admin test case/Page_ProjectBackend/h2_Transaction List' are matched.
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/For admin test case/Page_ProjectBackend/Total after add' is clicked on
+
+2018-05-10 17:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/For admin test case/Page_ProjectBackend/Total after add' is clicked on
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - driver3 = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - total3 = driver3.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - adminAfterAdd = total3.getText(): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - adminAfterAdd = adminAfterAdd.replaceAll("Total price: ", ""): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - adminAfterAdd = adminAfterAdd.replaceAll(" THB", ""): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - adminAfterAdd = adminAfterAdd.replaceAll(",", ""): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - adminAfterAdd2 = java.lang.Integer.parseInt(adminAfterAdd): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - println("Total after user add a transaction = " + adminAfterAdd2): null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - Statement - compare = userTransaction2 + adminBeforeAdd2: null
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - verifyEqual: Actual object '990,520' and expected object '990,520' are equal
+
+2018-05-10 17:31:49 - [MESSAGE][PASSED] - Actual object '990,520' and expected object '990,520' are equal
+
+2018-05-10 17:31:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 17:31:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 17:31:16 - [TEST_SUITE][PASSED] - Test Suite 2: Test Cases/Admin view all transaction Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

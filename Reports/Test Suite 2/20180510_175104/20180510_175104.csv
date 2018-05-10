@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 2,,Using for admin view test case,2018-05-10 17:51:07,2018-05-10 17:51:09,2.140s,FAILED
+,,,,,,
+Test Cases/Admin view all transaction Testing,,,2018-05-10 17:51:07,2018-05-10 17:51:09,1.483s,FAILED
+openBrowser,,,2018-05-10 17:51:08,2018-05-10 17:51:09,0.672s,FAILED

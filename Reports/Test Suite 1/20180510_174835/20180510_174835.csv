@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 1,Chrome 66.0.3359.139,This test suite used for testing the test case 3 with new data files,2018-05-10 17:48:37,2018-05-10 17:49:00,22.605s,FAILED
+,,,,,,
+Test Cases/Create a transaction-Test,Chrome 66.0.3359.139,,2018-05-10 17:48:37,2018-05-10 17:48:59,21.194s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-10 17:48:38,2018-05-10 17:48:42,4.048s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-10 17:48:42,2018-05-10 17:48:55,13.082s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:48:55,2018-05-10 17:48:55,0.289s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-10 17:48:55,2018-05-10 17:48:56,0.153s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:48:56,2018-05-10 17:48:56,0.326s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:48:56,2018-05-10 17:48:58,1.700s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-10 17:48:58,2018-05-10 17:48:58,0.273s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-10 17:48:58,2018-05-10 17:48:59,0.724s,FAILED
