@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin menu test case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7570d964-005b-48fa-b134-c1b68c0f990f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>418222f8-b75b-40c0-96ff-9d0cdc710e1b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc10e8c5-a4e8-408f-bc32-2055be9e76d3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
