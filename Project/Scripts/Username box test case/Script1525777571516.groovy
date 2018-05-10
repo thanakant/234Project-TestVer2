@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Username box test case/input_password'), 'admin')
 
 WebUI.click(findTestObject('Username box test case/button_Login'))
 
-WebUI.click(findTestObject('Username box test case/label_Username is required'))
+WebUI.verifyElementText(findTestObject('Username box test case/label_Username is required'), '')
 
 WebUI.closeBrowser()
 
