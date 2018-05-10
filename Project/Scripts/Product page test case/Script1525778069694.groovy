@@ -30,15 +30,15 @@ WebUI.setText(findTestObject('Product page test case/input_password'), 'user')
 
 WebUI.click(findTestObject('Product page test case/button_Login'))
 
-WebUI.click(findTestObject('Product page test case/h5_Garden'))
+WebUI.verifyElementText(findTestObject('Product page test case/h5_Garden'), '')
 
-WebUI.click(findTestObject('Product page test case/h5_Banana'))
+WebUI.verifyElementText(findTestObject('Product page test case/h5_Banana'), '')
 
-WebUI.click(findTestObject('Product page test case/h5_Orange'))
+WebUI.verifyElementText(findTestObject('Product page test case/h5_Orange'), '')
 
-WebUI.click(findTestObject('Product page test case/h5_Papaya'))
+WebUI.verifyElementText(findTestObject('Product page test case/h5_Papaya'), '')
 
-WebUI.click(findTestObject('Product page test case/h5_Rambutan'))
+WebUI.verifyElementText(findTestObject('Product page test case/h5_Rambutan'), '')
 
 WebUI.closeBrowser()
 
