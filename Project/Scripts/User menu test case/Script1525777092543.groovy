@@ -30,9 +30,9 @@ WebUI.setText(findTestObject('User menu test case/input_password'), 'user')
 
 WebUI.click(findTestObject('User menu test case/button_Login'))
 
-WebUI.click(findTestObject('User menu test case/a_Products'))
+WebUI.verifyElementText(findTestObject('User menu test case/a_Products'), '')
 
-WebUI.click(findTestObject('User menu test case/a_Carts'))
+WebUI.verifyElementText(findTestObject('User menu test case/a_Carts'), '')
 
 WebUI.closeBrowser()
 
