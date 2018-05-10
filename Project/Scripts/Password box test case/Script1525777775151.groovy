@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Password box test case/input_username'), 'user')
 
 WebUI.click(findTestObject('Password box test case/button_Login'))
 
-WebUI.click(findTestObject('Password box test case/label_Password is required'))
+WebUI.verifyElementText(findTestObject('Password box test case/label_Password is required'), '')
 
 WebUI.closeBrowser()
 
