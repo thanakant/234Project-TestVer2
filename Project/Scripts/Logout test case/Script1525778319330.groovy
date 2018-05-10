@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Logout test case/button_Login'))
 
 WebUI.click(findTestObject('Logout test case/button_Logout'))
 
-WebUI.click(findTestObject('Logout test case/h2_Login'))
+WebUI.verifyElementText(findTestObject('Logout test case/h2_Login'), '')
 
 WebUI.closeBrowser()
 
