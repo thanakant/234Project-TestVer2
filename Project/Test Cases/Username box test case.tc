@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Username box test case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36cc55ee-7a02-4054-aaa0-2d80b8a8aa76</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>058995f6-d121-4fc4-8de7-62a2414dc475</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

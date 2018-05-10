@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User menu test case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be8a50fc-6937-4fea-a370-137032c553f1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04d21b34-29a5-46ad-9c8c-191dbcf951f2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fdb709a-ea41-43fd-b7e5-8111b6509841</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
